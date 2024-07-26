@@ -1,0 +1,156 @@
+<html>
+  <head>
+    <title>Food Finder</title>
+    <style>
+    body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background:url(https://st2.depositphotos.com/1194063/8263/i/450/depositphotos_82638678-stock-photo-christmas-menu.jpg);
+background:cover;
+  color: black;
+}
+
+.header {
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+
+.header h1 {
+  font-size: 60px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header img {
+  width: 40px;
+  height: 40px;
+  margin-left: 10px;
+}
+
+.login-box{
+  background-color: lightgreen;
+  padding: 20px;
+  margin: 10px;
+  font-size: 30px;
+  color: black;
+  text-decoration: none;
+}
+
+.intro-text {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  color: pink;
+}
+
+.intro-text p {
+  font-size: 36px;
+  color: pink;
+}
+
+.free-text {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+}
+
+.action-boxes {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.footer a {
+  margin: 5px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.terms {
+  text-align: left;
+  float: left;
+}
+
+.connect {
+  text-align: right;
+  float: right;
+}
+
+.SignUp-container {
+        max-width: 400px;
+        margin: 0 auto;
+        background-color: #D2B48C;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+     label {
+      display: inline-block;
+      margin-bottom: 8px;
+    }
+
+     input {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 16px;
+      box-sizing: border-box;
+      padding: 10px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+     button {
+      padding: 10px;
+      border: none;
+      background-color: #C19A6B;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    </style>
+   </head>
+   <body style="font-family:cursive;">
+     <div class="SignUp-container">
+     <h2 style="text-align:center;color:#6F4E37;font-family:cursive;">Sign Up</h2>
+     <form action="/submit" method="post">
+        <label for="email">Email/username:</label>
+        <input type="email" id="email/username" name="email/username" required>
+
+        <br><br>
+
+        <label for="create password">create Password:</label>
+        <input type="create password" id="create password" name="create password" required>
+
+        <br><br>
+
+        <label for="confirm password">confirm Password:</label>
+        <input type="confirm password" id="confirm password" name="confirm password" required>
+        
+        <br><br>
+
+        <label for="confirm password">Address:</label>
+        <input type="Address" id="Address" name="Address" required>
+
+        <br><br>
+        
+        <a href="userlogin.html" target="_blank"><button type="button" id="submit">Submit</button></a>
+    </form>
+
+</body>
+</html>

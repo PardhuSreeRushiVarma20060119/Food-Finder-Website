@@ -1,0 +1,136 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Finder</title>
+    <style>
+       body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+background: white;
+  color: black;
+}
+
+        header {
+            background-color: rgb(0, 0, 0);
+            color: rgb(255, 255, 255);
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        nav {
+            background-color: rgb(238, 221, 144);
+            text-align: center;
+            padding: 0.5em 0;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: blue;
+            padding: 0 1em;
+        }
+
+        nav a:hover {
+            color: #000000;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            grid-gap: 20px;
+            margin-top: 20px;
+        }
+
+        .gallery-item {
+            border-radius: 5px;
+            overflow: hidden;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            object-position: center;
+            transition: transform 0.3s ease;
+        }
+
+        .gallery-item:hover img {
+            transform: scale(1.05);
+        }
+
+        .order-btn {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            text-align: center;
+            background-color: rgb(124, 128, 0)3, 128, 0);
+            color: white;
+            text-decoration: none;
+            border: none;
+            border-radius: 5px;
+            margin-top: 10px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .order-btn:hover {
+            background-color: #dddddd;
+        }
+
+        footer {
+            background-color: rgb(128, 128, 0);
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Food Finder</h1>
+    </header>
+
+    <nav>
+        <a href="foodhome.html">Home</a>
+        <a href="foodfindnearby.html">Food Findspots Nearby</a>
+        <a href="myorders.html">Order</a>
+        <a href="About.html">About Us</a>
+    </nav>
+    <main>
+    <p>FoodFinder Developed by: B.Bhavana And Co.</p>
+    <p>FoodFinder helps travellers find their closest foodstop.</p>
+    <p>All Rights Reserved To Food Finder Developers</p>
+    <p>contact us ic04@foodfinders.com</p>
+    <p>Project By MALLA REDDY UNIVERSITY STUDENTS</p>
+    <h3><p>Project Developers:</p></h3>
+    <h5><p> 1. B.BHAVANA (IC04/FOODFINDER/2311CS040020) </p></h5>
+    <h5><p> 2. A.VYSHNAVI (IC04/FOODFINDER/2311CS040014) </p></h5>
+    <h5><p> 3. K.PARDHU (IC04/FOODFINDER/2311CS040089) </p></h5>
+    <h5><p> 4. E.VIVEK (IC04/FOODFINDER/2311CS040050) </p></h5>
+    <h5><p> 5. G.SADHVIK (IC04/FOODFINDER/2311CS040062) </p></h5>
+    </main>
+  <button class="order-btn" type="submit"><a href="foodhome.html">Back to Home</a></button>
+  <footer>
+    <p>&copy; 2023 Food Finder menu</p>
+    <p>FoodFinder Developed by: B.Bhavana And Co.</p>
+    <p>FoodFinder helps travellers find their closest foodstop.</p>
+    <p>All Rights Reserved To Food Finder Application Developers</p>
+    <p>contact us ic04@globeconnect.com</p>
+    <p>Project By MALLA REDDY STUDENTS</p>
+    <h1>Thanks For Visiting, See You Again</h1>
+</footer>
+</body>
+</html>
